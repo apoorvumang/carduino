@@ -16,7 +16,7 @@ static const bool DIR_HIGH_IS_FORWARD = true;
 // If one motor is physically flipped (common in differential drive),
 // set these to true to invert just that motor.
 static const bool INVERT_LEFT_MOTOR = false;
-static const bool INVERT_RIGHT_MOTOR = false;
+static const bool INVERT_RIGHT_MOTOR = true;
 
 // ====== Controls tuning ======
 static const float DEADZONE_THROTTLE = 0.08f;  // stick deadzone
